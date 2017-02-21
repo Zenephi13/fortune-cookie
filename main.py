@@ -27,6 +27,7 @@ def getRandomFortune():
 
     # randomly select one of the fortunes
     index = random.randint(0, len(fortunes) - 1)
+    
     return fortunes[index]
 
 class MainHandler(webapp2.RequestHandler):
